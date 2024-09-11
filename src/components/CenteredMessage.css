@@ -1,0 +1,30 @@
+.message-container {
+    text-align: center;
+    padding: 20px;
+    /* Remove any background color to show the background image */
+}
+
+h1 {
+    font-size: 5.5rem;
+    margin: 0 0 10px 0; /* Remove margin-left and set margin-bottom */
+    color: white;
+    max-width: 800px;
+}
+
+p {
+    font-size: 2rem; /* Adjust font size for better readability */
+    margin: 0 auto; /* Center the paragraph */
+    max-width: 800px;
+    color: white;
+}
+
+/* Media queries for mobile view */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3rem; /* Adjust the size of the header text for mobile view */
+    }
+    
+    p {
+        font-size: 1.2rem; /* Adjust the size of the paragraph text for mobile view */
+    }
+}

@@ -1,0 +1,129 @@
+/* src/components/RegistrationPage.css */
+
+.registration-container {
+    max-width: 700px;
+    margin: 0 auto; /* Center container horizontally */
+    margin-top: 100px;
+    padding: 50px;
+    border-radius: 8px;
+}
+
+/* Header styling */
+.registration-container h1 {
+    font-size: 5.5rem; /* Adjusted font size for responsiveness */
+    margin: 0 0 20px 0; /* Consistent margin-bottom */
+    color: white;
+}
+
+/* Form styling */
+.registration-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Label styling */
+.registration-container label {
+    margin-bottom: 5px;
+    color: white; /* White text for labels */
+}
+
+/* Input fields styling */
+.registration-container input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: black; /* Black text for input fields */
+    width: 100%; /* Ensure all inputs take full width of the container */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Password container styling */
+.password-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Password input styling */
+.password-container input {
+    flex: 1;
+}
+
+/* Eye icon styling */
+.eye-icon {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 13px;
+    font-size: 16px;
+}
+
+/* Button styling */
+.registration-container button {
+    padding: 10px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Button hover effect */
+.registration-container button:hover {
+    background-color: #218838;
+}
+
+/* Links container styling */
+.links {
+    margin-top: 20px; /* Increased margin for better spacing */
+    text-align: center;
+}
+
+/* Link styling */
+.links a {
+    display: block;
+    margin: 5px 0;
+    color: white; /* White text for links */
+    text-decoration: none;
+}
+
+/* Link hover effect */
+.links a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .registration-container {
+        padding: 20px; /* Reduce padding on smaller screens */
+    }
+
+    .registration-container h1 {
+        font-size: 2rem; /* Reduce font size for smaller screens */
+    }
+
+    .registration-container button {
+        font-size: 14px; /* Reduce button font size on smaller screens */
+    }
+
+    .eye-icon {
+        font-size: 14px; /* Reduce font size of eye icon on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .registration-container {
+        margin-top: 50px; /* Reduce top margin on very small screens */
+    }
+
+    .registration-container h1 {
+        font-size: 1.5rem; /* Further reduce font size for very small screens */
+    }
+
+    .registration-container button {
+        padding: 8px; /* Reduce button padding on very small screens */
+    }
+}

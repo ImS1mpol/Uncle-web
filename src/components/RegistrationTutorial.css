@@ -1,0 +1,90 @@
+/* src/components/RegistrationTutorial.css */
+
+.tutorial-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    background-color: #28a745; /* Green background color */
+    color: white; /* White text color for contrast */
+    padding: 30px; /* Consistent padding */
+    border-radius: 15px; /* More rounded corners */
+    max-width: 800px; /* Adjusted max-width for better fit */
+    margin: 100px auto; /* Center container horizontally and add top/bottom margin */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for better depth */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Styling for headings */
+.tutorial-container h1,
+.tutorial-container h2 {
+    margin: 20px 0; /* Consistent margin for headings */
+    font-family: 'Arial', sans-serif; /* Clean sans-serif font */
+}
+
+/* Styling for paragraphs */
+.tutorial-container p {
+    text-align: left;
+    margin-bottom: 15px;
+    line-height: 1.6; /* Increase line-height for better readability */
+}
+
+/* Styling for ordered lists */
+.tutorial-container ol {
+    margin-left: 20px;
+    list-style-type: decimal; /* Consistent list style */
+}
+
+/* Responsive Design for RegistrationTutorial */
+
+/* Media Queries for Tablets and Smaller Screens (max-width: 768px) */
+@media (max-width: 768px) {
+    .tutorial-container {
+        padding: 20px; /* Adjusted padding for better spacing on tablets */
+        margin: 60px auto; /* Reduced margin for better centering */
+    }
+
+    .tutorial-container h1 {
+        font-size: 2rem; /* Adjusted font size for headings */
+        margin: 15px 0; /* Consistent margin */
+    }
+
+    .tutorial-container h2 {
+        font-size: 1.6rem; /* Adjusted font size for subheadings */
+        margin: 15px 0; /* Consistent margin */
+    }
+
+    .tutorial-container p {
+        font-size: 1.1rem; /* Adjusted font size for paragraphs */
+    }
+
+    .tutorial-container ol {
+        margin-left: 20px; /* Consistent margin */
+    }
+}
+
+/* Media Queries for Mobile Screens (max-width: 480px) */
+@media (max-width: 480px) {
+    .tutorial-container {
+        padding: 15px; /* Increased padding for mobile view */
+        margin: 50px auto; /* Reduced margin for better centering on mobile screens */
+    }
+
+    .tutorial-container h1 {
+        font-size: 1.8rem; /* Further adjusted font size for headings */
+        margin: 10px 0; /* Consistent margin */
+    }
+
+    .tutorial-container h2 {
+        font-size: 1.4rem; /* Further adjusted font size for subheadings */
+        margin: 10px 0; /* Consistent margin */
+    }
+
+    .tutorial-container p {
+        font-size: 1rem; /* Further adjusted font size for paragraphs */
+    }
+
+    .tutorial-container ol {
+        margin-left: 15px; /* Consistent margin */
+    }
+}

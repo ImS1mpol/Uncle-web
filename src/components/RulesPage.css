@@ -1,0 +1,107 @@
+/* src/components/RulesPage.css */
+
+.rules-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center;
+    background-color: #28a745; /* Green background color */
+    color: white; /* White text color */
+    padding: 30px; /* Increased padding for better spacing */
+    border-radius: 15px; /* More rounded corners */
+    max-width: 900px; /* Adjusted max-width for better fit */
+    max-height: 800px; /* Adjust max-height as needed */
+    margin: 200px auto; /* Center container horizontally and add top/bottom margin */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Styling for headings */
+.rules-container h1, 
+.rules-container h2 {
+    margin: 20px 0; /* Consistent margin for headings */
+    font-family: 'Arial', sans-serif; /* Use a clean sans-serif font */
+}
+
+/* Styling for paragraphs */
+.rules-container p {
+    text-align: left;
+    margin-bottom: 20px;
+    line-height: 1.6; /* Increase line-height for better readability */
+}
+
+/* Styling for unordered lists */
+.rules-container ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 10px 0; /* Add margin for spacing */
+}
+
+/* Styling for list items */
+.rules-container li {
+    margin: 10px 0; /* Increased spacing between list items */
+    font-size: 1.1rem; /* Slightly larger font size for readability */
+}
+
+/* Responsive Design for RulesPage */
+
+/* Media Queries for Tablets and Smaller Screens (max-width: 768px) */
+@media (max-width: 768px) {
+    .rules-container {
+        padding: 20px; /* Increased padding for better spacing */
+        margin: 60px auto; /* Reduced margin for better centering on smaller screens */
+    }
+    
+    .rules-container h1 {
+        font-size: 2rem; /* Adjusted font size for headings */
+        margin: 15px 0; /* Consistent margin */
+    }
+    
+    .rules-container h2 {
+        font-size: 1.6rem; /* Adjusted font size for subheadings */
+        margin: 15px 0; /* Consistent margin */
+    }
+    
+    .rules-container p {
+        font-size: 1.1rem; /* Adjusted font size for paragraphs */
+    }
+    
+    .rules-container ul {
+        padding-left: 20px; /* Consistent padding */
+        margin: 10px 0; /* Consistent margin */
+    }
+    
+    .rules-container li {
+        font-size: 1.1rem; /* Adjusted font size for list items */
+    }
+}
+
+/* Media Queries for Mobile Screens (max-width: 480px) */
+@media (max-width: 480px) {
+    .rules-container {
+        padding: 15px; /* Increased padding for mobile view */
+        margin: 40px auto; /* Reduced margin for better centering on mobile screens */
+    }
+    
+    .rules-container h1 {
+        font-size: 1.8rem; /* Further adjusted font size for headings */
+        margin: 10px 0; /* Consistent margin */
+    }
+    
+    .rules-container h2 {
+        font-size: 1.4rem; /* Further adjusted font size for subheadings */
+        margin: 10px 0; /* Consistent margin */
+    }
+    
+    .rules-container p {
+        font-size: 1rem; /* Further adjusted font size for paragraphs */
+    }
+    
+    .rules-container ul {
+        padding-left: 15px; /* Consistent padding */
+        margin: 8px 0; /* Consistent margin */
+    }
+    
+    .rules-container li {
+        font-size: 1rem; /* Further adjusted font size for list items */
+    }
+}
